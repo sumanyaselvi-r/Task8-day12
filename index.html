@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <style>
+        .main{
+            border: 3px solid black;
+        }
+        .main1{
+            border: 2px solid black;
+            padding-left: 20px;
+            padding-right: 20px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        .main .main1 .content{
+            display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+        flex-wrap: wrap;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        
+        
+        }
+        .main .main1 .content .image img{
+            
+            justify-content: space-evenly;
+
+            
+        }
+        .main .main1 .content .text{
+            padding-top: 40px;
+        }
+        .main .main1 .content .text label{
+            text-align: center;
+            font-size: 30px;
+        }
+        .main .main1 .content .text input{
+            text-align: justify;
+            align-items: center;
+        }
+        .main .main1 .content .text button{
+            font-size: 20px;
+            align-items: center;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+  <div class="main">
+    <h1 style="text-align: center;color: black;">Event 1</h1>
+    <p style="text-align: center;color: black; font-size: 25px;">Number of seats available:23</p>
+    <div class="main1">
+        <div class="content">
+    <div class="image">
+    <img src="https://img.freepik.com/free-photo/glowing-stage-light-illuminates-cheering-rock-fans-generated-by-ai_188544-37983.jpg?size=626&ext=jpg&ga=GA1.1.1141335507.1696291200&semt=ais" width="100%" height="100%" >
+    </div>
+    <div class="text">
+        <label>Name             :</label><input type="text"><br><br>
+        <label>Email            :</label><input type="text"><br><br>
+        <label>Phone No         :</label><input type="text"><br><br>
+        <label>No.of seats :<select name="seats" id="seats">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            
+            </select><br><br>
+        <label>No.of Attendee 2 : </label><input type="text"><br><br>
+        <button >Submit</button>
+        <button>Cancel</button>
+    </div>
+    </div>
+    </div>
+    <br><br>
+    </div>
+</body>
+</html>
